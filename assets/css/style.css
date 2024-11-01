@@ -1,3 +1,14 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+
+
+header{
+    position: sticky;
+    top: 0;
+}
+
 nav {
     background-color: #ffc017;
     border-bottom: 1px solid #191919;
@@ -5,10 +16,12 @@ nav {
     align-items: center;
     justify-content: space-between;
     padding: 20px 10px;
+    flex-wrap: wrap;
 }
 
 nav img{
-    width: 33%;
+    width: 100px;
+    margin-left: 10px;
 }
 
 a{
@@ -39,10 +52,108 @@ nav #get-started {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    padding-left: 20px;
+    padding-right: 110px;
+    border-bottom: 1px solid #191919;
 }
 
 #curious h1 {
+    font-family: "Spectral", serif;
     font-size: 3em;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+#curious p {
+    margin-bottom: 30px;
+}
+
+#curious a{
+    width: 92px;
+    margin-bottom: 80px;
+    padding: 7px 15px;
+    color: white;
+    background-color: #191919;
+    border-radius: 30px;
+}
+
+#trending-container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-top: 30px;
+    padding-right: 5px;
+    margin-bottom: 10px;
+}
+
+#trending {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#trending img{
+    width: 25px;
+    margin-right: 10px;
+}
+
+#trending span{
+    font-size: 0.7em;
+    font-weight: 500;
+}
+
+.trending-card{
+    display: flex;
+    align-items:center;
+}
+
+.trending-card span {
+    font-size: 2em;
+    font-weight: 700;
+    color: #dbdbdb;
+}
+
+.trending-card img {
+    margin-left: 20px;
+    margin-right: 10px;
+    border-radius: 50%;
+    width: 20px;
+}
+
+.trending-card p {
+    font-size: 0.7em;
+    font-weight: 600;
+}
+
+.news{
+    padding-left: 57px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 55px;
+    padding-right: 120px;
+}
+
+.info p{
+    font-size: 0.8em;
+    color: #8d8d8d;
+}
+
+.trend {
+    margin-bottom: 20px;
+}
+
+.little{
+    font-size: 1em;
+    color: #8d8d8d;
+}
+
+hr {
+    color: #dbdbdb;
 }
 
 
