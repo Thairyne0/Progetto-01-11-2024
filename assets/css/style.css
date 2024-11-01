@@ -1,0 +1,49 @@
+nav {
+    background-color: #ffc017;
+    border-bottom: 1px solid #191919;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10px;
+}
+
+nav img{
+    width: 33%;
+}
+
+a{
+    text-decoration: none;
+    color: #191919;
+}
+
+nav a {
+    text-decoration: none;
+    color: #191919;
+    margin-right: 10px;
+}
+
+nav #get-started {
+    padding: 7px 15px;
+    color: white;
+    background-color: #191919;
+    border-radius: 30px;
+    margin-right: 0px;
+}
+
+#m-svg {
+    display: none;
+}
+
+#curious {
+    background-color: #ffc017;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#curious h1 {
+    font-size: 3em;
+}
+
+
+
