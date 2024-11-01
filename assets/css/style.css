@@ -202,17 +202,21 @@ hr {
     display: flex;
     flex-direction: column;
     padding: 0px 20px;
+    margin-bottom: 30px;
 }
 
 .testo{
     display: flex;
     flex-direction: column;
+    margin-right: 10px;
+    width: 70%;
 }
 
 .notizia{
     justify-content: space-between;
     display: flex;
     align-items: center;
+    margin-bottom: 30px;
 }
 
 .utente {
@@ -232,7 +236,7 @@ hr {
 }
 
 .informazioni {
-    display: flex;   
+    display: flex;  
 }
 
 .testo h2{
@@ -246,8 +250,17 @@ hr {
 }
 
 .immagine{
-    width: 100%;
-    height: 100%;
+    width: 30%;
+}
+
+.informazioni span {
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.cat {
+    background-color: #e6e6e6;
+    border-radius: 30px;
 }
 
 
