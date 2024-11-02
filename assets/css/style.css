@@ -24,6 +24,10 @@ nav img{
     margin-left: 10px;
 }
 
+.vanish{
+    display: none;
+}
+
 a{
     text-decoration: none;
     color: #191919;
@@ -32,7 +36,7 @@ a{
 nav a {
     text-decoration: none;
     color: #191919;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
 nav #get-started {
@@ -253,12 +257,14 @@ hr {
 
 .informazioni {
     display: flex;  
+    align-items: center;
 }
 
 .testo h2{
     font-size: 1.5em;
     font-weight: 700;
     margin: 10px 0px;
+    width: 420px;
 }
 
 .testo p{
@@ -277,9 +283,12 @@ hr {
 .cat {
     background-color: #e6e6e6;
     border-radius: 30px;
+    padding: 5px;
 }
 
-#share{
+
+
+.share{
     width: 20px;
 }
 

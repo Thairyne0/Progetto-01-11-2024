@@ -7,6 +7,10 @@
         z-index: 1;
     }
 
+    .vanish{
+        display: inline-block;
+    }
+
     #curious{
         display: flex;
         padding-right: 0px;
