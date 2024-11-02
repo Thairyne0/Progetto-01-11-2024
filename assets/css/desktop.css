@@ -11,4 +11,10 @@
     padding-right: 5px;
     margin-bottom: 10px;
     }
+
+    #seconda-sezione{
+        display: flex;
+        flex-direction: row-reverse;
+        margin-top: 50px;
+    }
 }

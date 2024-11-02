@@ -7,6 +7,11 @@
         z-index: 1;
     }
 
+    nav{
+        position: sticky;
+        top: 0px;
+    }
+
     .vanish{
         display: inline-block;
     }
@@ -14,19 +19,21 @@
     #curious{
         display: flex;
         padding-right: 0px;
-        justify-content: space-between;
     }
 
-    header {}
 
 
-    #m-svg {
+    #m-img{
+        display: inline-block;
+    }
+
+    /* #m-svg {
         height: 350px;
         display: inline;
         position: absolute;
         bottom: 495px;
         right: -65px;
-    }
+    } */
 
     
     

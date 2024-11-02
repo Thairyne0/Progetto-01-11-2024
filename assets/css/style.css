@@ -16,7 +16,6 @@ nav {
     align-items: center;
     justify-content: space-between;
     padding: 20px 10px;
-    flex-wrap: wrap;
 }
 
 nav img{
@@ -47,18 +46,28 @@ nav #get-started {
     margin-right: 0px;
 }
 
-#m-svg {
+#m-img{
     display: none;
 }
 
+/* #m-svg {
+    display: none;
+} */
+
 #curious {
+    height: 465px;
     background-color: #ffc017;
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     padding-left: 20px;
     padding-right: 110px;
     border-bottom: 1px solid #191919;
+}
+
+#testo-curious {
+    display: flex;
+    flex-direction: column;
+    margin-left: 7%;
 }
 
 #curious h1 {
@@ -264,7 +273,6 @@ hr {
     font-size: 1.5em;
     font-weight: 700;
     margin: 10px 0px;
-    width: 420px;
 }
 
 .testo p{
