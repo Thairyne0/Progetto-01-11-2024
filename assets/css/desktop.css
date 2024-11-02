@@ -1,0 +1,14 @@
+@media screen and (min-width: 1200px){
+    #trending-container{
+        display: none;
+    }
+
+    #trending-container-desktop{
+        display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-top: 30px;
+    padding-right: 5px;
+    margin-bottom: 10px;
+    }
+}

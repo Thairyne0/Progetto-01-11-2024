@@ -1,0 +1,29 @@
+@media screen and (min-width: 699px){
+    .trend-row{
+        justify-content: space-around;
+    }
+
+    header{
+        z-index: 1;
+    }
+
+    #curious{
+        display: flex;
+        padding-right: 0px;
+        justify-content: space-between;
+    }
+
+    header {}
+
+
+    #m-svg {
+        height: 350px;
+        display: inline;
+        position: absolute;
+        bottom: 495px;
+        right: -65px;
+    }
+
+    
+    
+}

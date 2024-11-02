@@ -62,10 +62,12 @@ nav #get-started {
     font-size: 3em;
     margin-top: 80px;
     margin-bottom: 20px;
+    width: 275px;
 }
 
 #curious p {
     margin-bottom: 30px;
+    width: 300px;
 }
 
 #curious a{
@@ -84,6 +86,16 @@ nav #get-started {
     padding-top: 30px;
     padding-right: 5px;
     margin-bottom: 10px;
+}
+
+#trending-container-desktop{
+    display: none;
+}
+
+.trend-row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 #trending {
@@ -129,6 +141,10 @@ nav #get-started {
     padding-left: 57px;
     font-weight: 600;
     margin-bottom: 10px;
+}
+
+.news p{
+    width: 280px;
 }
 
 .info {
