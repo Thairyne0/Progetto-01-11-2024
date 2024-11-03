@@ -12,14 +12,22 @@ const changeColorFunction = function () {
   }
 };
 
-const elements = document.querySelectorAll("g");
+const elements = document.querySelectorAll('[stroke-linecap="butt"]');
 
 const animation = function () {
-  elements[Math.floor(Math.random() * (elements.length + 1))].style.display
-    .none;
-  console.log("ciao");
+  let random = Math.floor(Math.random() * (elements.length + 1));
+  console.log(elements[random]);
+  let elementoM = elements[random];
+
+  if (elementoM.classList.contains("hidden")) {
+    elementoM.classList.remove("hidden");
+  } else {
+    elementoM.classList.add("hidden");
+  }
+
+  console.log("merito un 10?");
 };
 
-const intervallo = setInterval(animation, 100);
+const intervallo = setInterval(animation, 10);
 
 window / addEventListener("scroll", changeColorFunction);
