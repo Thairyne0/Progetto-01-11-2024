@@ -14,6 +14,12 @@ const changeColorFunction = function () {
 
 const elements = document.querySelectorAll("g");
 
-elements[0].style.display.none;
+const animation = function () {
+  elements[Math.floor(Math.random() * (elements.length + 1))].style.display
+    .none;
+  console.log("ciao");
+};
+
+const intervallo = setInterval(animation, 100);
 
 window / addEventListener("scroll", changeColorFunction);
