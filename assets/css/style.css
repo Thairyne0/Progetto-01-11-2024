@@ -46,6 +46,11 @@ nav #get-started {
     margin-right: 0px;
 }
 
+.g-fade {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
 #m-img{
     display: none;
 }

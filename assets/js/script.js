@@ -3,7 +3,7 @@ const changeColorFunction = function () {
   const button = document.getElementById("get-started");
   const scrollY = window.scrollY;
 
-  if (scrollY > 475) {
+  if (scrollY > 470) {
     navbar.style.backgroundColor = "white";
     button.style.backgroundColor = "#538724";
   } else {
@@ -11,5 +11,9 @@ const changeColorFunction = function () {
     button.style.backgroundColor = "black";
   }
 };
+
+const elements = document.querySelectorAll("g");
+
+elements[0].style.display.none;
 
 window / addEventListener("scroll", changeColorFunction);
